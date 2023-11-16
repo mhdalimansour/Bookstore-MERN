@@ -1,0 +1,24 @@
+/* CardComponent.css */
+.card-container {
+  width: 18rem;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 0.75rem;
+}
+
+.btn {
+  margin-right: 10px;
+}

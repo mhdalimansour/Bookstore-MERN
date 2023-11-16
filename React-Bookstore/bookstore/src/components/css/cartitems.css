@@ -1,0 +1,19 @@
+img {
+  max-width: 500px;
+  max-height: 150px;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+}
+.lol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close {
+}

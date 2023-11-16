@@ -1,0 +1,16 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "isbn": "9781982185886",
+  "title": "The Silva Mind Control Method",
+  "author": "Jose Silva",
+  "genre": [],
+  "quantity": 100,
+  "numRatings": 0,
+  "price": 12.99,
+  "copiesSold": 0,
+  "slug": "the-silva-mind-control-method",
+  "imageCover": "9781982185886.png",
+  "__v": 0
+}
