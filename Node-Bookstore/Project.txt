@@ -1,0 +1,71 @@
+**Online Bookstore API**
+
+**Description:**
+Build a RESTful API for an online bookstore. The API will allow users to browse books,
+search for books, view book details, add books to their shopping carts,
+and complete the purchase process. You can extend this project with features like user authentication,
+reviews/ratings for books, and order history.
+
+**Features and Endpoints:**
+
+
+// Done
+1. **List Books**: Users can retrieve a list of available books with details like title,
+   author, price, and ISBN.
+   - `GET /books`
+
+2. **Search Books**: Users can search for books by title, author, genre, or keyword.
+// Done
+   - `GET /books/search?query={search_query}`
+
+// Done
+3. **View Book Details**: Users can view detailed information about a specific book,
+   including its description and availability.
+   - `GET /books/{book_id}`
+
+// Done
+4. **Add to Cart**: Authenticated users can add books to their shopping carts.
+   - `POST /cart/add/{book_id}`
+
+// Done
+5. **View Cart**: Users can view the contents of their shopping carts
+   - `GET /cart`
+
+// Done
+6. **Update Cart**: Users can update the quantity or remove items from their shopping carts.
+   - `PUT /cart/{book_id}`
+   - `DELETE /cart/{book_id}`
+
+7. **Checkout**: Authenticated users can complete the purchase process by providing payment information.
+   - `POST /checkout`
+
+// Done
+8. **User Authentication (Optional)**: Implement user registration and login to allow users to maintain
+   their shopping carts and order history.
+   - `POST /register`
+   - `POST /login`
+
+9. **Reviews and Ratings (Optional)**: Allow users to leave reviews and ratings for books.
+   - `POST /books/{book_id}/reviews`
+   - `GET /books/{book_id}/reviews`
+
+**Technologies:**
+
+- Node.js and Express.js for building the API.
+- MongoDB or another database system for storing book information, user data, and order history.
+- Authentication can be implemented using JWT (JSON Web Tokens) or OAuth.
+- Use a library like Mongoose to interact with the database.
+- Implement validation and error handling for robustness.
+
+
+
+
+Video 102 - Stats
+Video 131 - Protecting carts
+
+TODO:
+- String operation on isbn to remove (-); // idea: pre save middleware to convert it // Done
+- Remove sold books from database
+- add confirmed orders to users
+- reset cart after each successfull order
+- add order to database

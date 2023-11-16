@@ -1,0 +1,10 @@
+{
+  "name": "Admin",
+  "email": "admin@mans.io",
+  "phonenumber": "456",
+  "role": "customer",
+  "password": "password123",
+  "passwordConfirm": "password123",
+  "active": true,
+  "cart": {}
+}
